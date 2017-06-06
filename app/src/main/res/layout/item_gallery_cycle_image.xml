@@ -1,0 +1,46 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/dali"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"
+                android:text="第1期"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:text="四月，来看大理的云"
+                android:layout_marginTop="137dp"
+                android:textSize="13sp"/>
+        </FrameLayout>
+
+
+    </RelativeLayout>

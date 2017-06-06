@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wheat7.gallerycycleimageview.MainActivity">
+
+    <com.wheat7.gallerycycleimageview.View.GalleryCycleImageView
+        android:id="@+id/gallery_cycle_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:viewPagerHeight="160dp"
+        app:indicatorFocusColor="@color/indicatorFocusColor"
+        app:indicatorNormalColor="@color/indicatorNormalColor"
+        app:indicatorSize="8dp"
+        app:duration="5000"
+        app:pageMargin="10dp"/>
+</LinearLayout>
